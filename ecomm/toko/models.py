@@ -4,9 +4,21 @@ from django.db import models
 from django.urls import reverse
 
 PILIHAN_KATEGORI = (
-    ('S', 'Shirt'),
-    ('SW', 'Sport wear'),
-    ('OW', 'Outwear')
+    # ('S', 'Shirt'),
+    # ('SW', 'Sport wear'),
+    # ('OW', 'Outwear')
+    ('FC', 'Facial Cleanser'),
+    ('FW', 'Facial Wash'),
+    ('ET', 'Exfoliating Toner'),
+    ('HT', "Hydrating Toner"),
+    ('E', 'Essence'),
+    ('B','Booster'),
+    ('S', 'Serum'),
+    ('M', 'Moistruazer'),
+    ('FO', 'Facial Oil'),
+    ('MK', 'Mask'),
+    ('SC', 'Sunscreen'),
+
 )
 
 PILIHAN_LABEL = (
